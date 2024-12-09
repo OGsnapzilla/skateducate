@@ -1,10 +1,25 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+section {
+    padding: 0 6.25rem;
+}
+
+h1 {
+    font-family:"Shantell Sans", serif;
+    font-weight: bold;
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+
 }
 
 html {
@@ -75,6 +90,29 @@ a {
         width: 70%;
     }
 
+
+/*styling av find os section*/
+    #find-os-section {
+        background-color: #4276C9;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+
+        
+    }
+
+    #find-os-section h1 {
+        color:#FAFFBC;
+
+    }
+
+    #find-os-section p {
+        color: white;
+        font-size: 1.25rem;
+    }
+
+
+    
+
     /*--------MEDIA QUERIES---------*/
 
     /*Max-width: 768px*/
@@ -118,3 +156,4 @@ a {
         }
 
         }
+
