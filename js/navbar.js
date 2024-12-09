@@ -18,3 +18,20 @@ function closeMenu() {
 hamburger.classList.remove("active");
 navMenu.classList.remove("active");
 }
+
+
+
+
+//Tilbake til toppen
+//hente knapp
+const backToTopBtn =document.getElementById("backToTopBtn");
+
+//vise knappen
+
+//funksjon av knapp: sender til toppen
+backToTopBtn.onclick = function() {
+    window.scrollto({
+        top: 0,
+        behavior: "smooth"
+    });
+};
