@@ -10,7 +10,7 @@
 }
 
 section {
-    padding: 0 6.25rem;
+    padding: 0 13rem;
 }
 
 h1 {
@@ -109,17 +109,179 @@ a {
 
     #find-os-section h1 {
         color:#FAFFBC;
+        padding-bottom: 2rem;
 
     }
 
     #find-os-section p {
         color: white;
-        font-size: 1.25rem;
+        font-size: 1.50rem;
+        max-width: 60%;
     }
 
     .maps {
         border: 0;
     }
+
+/*styling av skal vi ut til jer*/
+#ud-til-jer-section {
+    background-color: #FAFFBC;
+    padding-top: 3rem;
+
+
+}
+
+#ud-til-jer-section h1 {
+    color:#4276C9;
+    padding-bottom: 2rem;
+
+
+
+}
+
+#ud-til-jer-section p {
+    font-size: 1.50rem;
+    max-width: 60%;
+    padding-bottom: 3rem;
+}
+
+/*styling av mappe delen*/
+
+#tabs {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.mappe.active {
+    display: block;
+}
+
+.mappe {
+    display: none;
+}
+
+/*styling av undervisning knapp*/
+#undervisning {
+    background-color: #5DB666;
+    padding: 2rem 6rem;
+    border-radius: 10% 10% 0 0;
+}
+
+#undervisningBtn {
+    background-color: #5DB666;
+    color: white;
+    border: none;
+    font-size: 2.50rem;
+    font-family: "Shantell Sans", serif;
+    font-weight: bold;
+
+}
+
+/*styling av undervisning innhold*/
+#mappe-undervisning {
+    background-color: #5DB666;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    font-size: 1.50rem;
+    color: white;
+}
+
+#mappe-inhold-undervisning {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 5%;
+    padding-left: 5%;
+
+}
+
+
+
+/*styling av festivaler knappen*/
+#festivaler {
+    background-color: #4276C9;
+    padding: 2rem 6rem;
+    border-radius: 10% 10% 0 0;
+}
+
+#festivalBtn {
+    background-color: #4276C9;
+    color: white;
+    border: none;
+    font-size: 2.50rem;
+    font-family: "Shantell Sans", serif;
+    font-weight: bold;
+
+}
+
+/*styling av festivaler innhold*/
+#mappe-festivaler {
+    background-color: #4276C9;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    font-size: 1.50rem;
+    color: #f7f7ec;
+}
+
+#mappe-inhold-festivaler {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+
+
+/*styling av camps knapp*/
+
+#camps {
+    background-color:#FF7471;
+    padding: 2rem 6rem;
+    border-radius: 10% 10% 0 0;
+}
+
+#campsBtn {
+    background-color: #FF7471;
+    color: white;
+    border: none;
+    font-size: 2.50rem;
+    font-family: "Shantell Sans", serif;
+    font-weight: bold;
+}
+
+/*styling av camps innhold*/
+
+#mappe-camps {
+    background-color: #FF7471;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: white;
+    font-size: 1.50rem;
+}
+
+#mappe-inhold-camps {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+
+
+
+/*styling av kontakt os*/
+#kontakt-section {
+    background-color:#5DB666;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    
+}
+
+
+
 
 /*back to top styling*/
     .back-to-top {
@@ -129,12 +291,13 @@ a {
 
     }
 
+/*plassering av pil*/
     #arrow {
         position: fixed;
         right: 35px;
         bottom: 50px;
     }
-
+/*styling + plassering av knapp*/
     #backToTopBtn {
         position: fixed;
         right: 20px;
@@ -146,6 +309,8 @@ a {
         font-size: small;
 
     }
+
+
 
     
 
