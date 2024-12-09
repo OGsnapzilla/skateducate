@@ -100,6 +100,13 @@ a {
         
     }
 
+    #bilder-find-os {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 5rem;
+        
+    }
+
     #find-os-section h1 {
         color:#FAFFBC;
 
@@ -110,6 +117,35 @@ a {
         font-size: 1.25rem;
     }
 
+    .maps {
+        border: 0;
+    }
+
+/*back to top styling*/
+    .back-to-top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    #arrow {
+        position: fixed;
+        right: 35px;
+        bottom: 50px;
+    }
+
+    #backToTopBtn {
+        position: fixed;
+        right: 20px;
+        bottom: 20px;
+        border: 0;
+        background: none;
+        color: black;
+        font-weight: bold;
+        font-size: small;
+
+    }
 
     
 

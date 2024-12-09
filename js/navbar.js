@@ -30,7 +30,7 @@ const backToTopBtn =document.getElementById("backToTopBtn");
 
 //funksjon av knapp: sender til toppen
 backToTopBtn.onclick = function() {
-    window.scrollto({
+    window.scrollTo({
         top: 0,
         behavior: "smooth"
     });
