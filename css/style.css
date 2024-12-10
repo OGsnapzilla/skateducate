@@ -148,6 +148,19 @@ a {
     border-radius: 20px;
 }
 
+#more {
+    display: none;
+}
+
+#myBtn {
+    background-color:#5DB666;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 1.90rem;
+
+}
+
 /*Skatesessions styling*/
 
 #skatesessions-section {
