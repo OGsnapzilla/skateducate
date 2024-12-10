@@ -404,13 +404,31 @@ form {
 #footer-section {
     background-color: #4276C9;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5rem;
+    padding-top: 2rem;
 
+
+}
+
+#footer-tekst {
+    text-align: left;
 }
 
 #footer-section p {
     color: white;
     font-size: 1.80rem;
 
+}
+
+#sosiale-medier-ikoner-footer {
+    display: flex;
+    justify-content:flex-end;
+    gap: 10%;
+    padding-right: 20%;
+    align-items: center;
+    
 }
 
 
