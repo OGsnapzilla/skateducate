@@ -35,12 +35,16 @@ a {
     text-decoration: none;
 }
 
+/*Navigation*/
+
 .header{
     border-bottom: 1px solid #5DB666;
 }
 
 .navbar {
     display: flex;
+    position: fixed;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 1.5rem;
@@ -92,22 +96,117 @@ a {
 
     /*Progress bar*/
     .progress-bar {
-        background: #ff4163;
+        background: #FF7471;
         height: 10px;
         width: 0%;
         position: fixed;
-        top: 0;
         z-index: 1;
     }
+
+/*Hero picture styling*/
+#hero-foto-section {
+    margin: 0;
+    padding: 0;
+    background-color: #5DB666;
+}
+
+#hero-pic {
+    width: 100%;
+}
+
+/*Hvem er skaducate? styling*/
+
+#om-os-section {
+    display: flex;
+    background-color: #5DB666;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+#om-os-section h1 {
+    color: #FAFFBC;
+}
+
+#om-os-tekst {
+    flex: 1;
+    color: white;
+    font-size: 1.80rem;
+    max-width: 90%;
+    padding-bottom: 3rem;
+    padding-top: 2rem;
+
+}
+
+#om-os-foto-section {
+     margin-left: 50rem;
+}
+
+#om-os-foto {
+    margin-top: 20rem;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+/*Skatesessions styling*/
+
+#skatesessions-section {
+    background-color: #FAFFBC;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+#skatesessions-section h1 {
+    color:#5DB666;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+#skatesessions-section p {
+    font-size: 1.80rem;
+        max-width: 60%;
+        padding-bottom: 3rem;
+        padding-top: 2rem;
+}
+
+#bliv-medlem-button {
+    margin: 20px;
+    background-color: #FF7471;
+    color: white;
+    font-size: 1.80rem;
+    padding: 20px;
+    border-radius: 10px;
+    font-weight: 600;
+    border: none;
+}
+
+/*Bliv medlem styling*/
+#bliv-medlem-section {
+    background-color: #FAFFBC;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+#bliv-medlem-section h1 {
+    color:#5DB666;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+#bliv-medlem-section p {
+    font-size: 1.80rem;
+        max-width: 60%;
+        padding-bottom: 3rem;
+        padding-top: 2rem;
+}
+
 
 
 /*styling av find os section*/
     #find-os-section {
         background-color: #4276C9;
         padding-top: 3rem;
-        padding-bottom: 3rem;
-
-        
+        padding-bottom: 3rem;    
     }
 
     #bilder-find-os {
@@ -505,6 +604,17 @@ form {
         .hamburger.active .bar:nth-child(3) {
             transform: translateY(-8px) rotate(-45deg);
         }
+
+        /*OM OS*/
+#om-os-section {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#om-os-section p {
+    max-width: 90%;
+
+}
 
         }
 

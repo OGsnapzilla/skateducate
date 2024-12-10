@@ -7,5 +7,5 @@ function handleScroll() {
     var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;  
     var scrolled = (winScroll / height) * 100;
   
-    document.getElementById("progressBar").style.width = scrolled + "%";
+    document.getElementById("page-progress").style.width = scrolled + "%";
 }
