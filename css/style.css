@@ -16,7 +16,7 @@ section {
 h1 {
     font-family:"Shantell Sans", serif;
     font-weight: bold;
-    font-size: 4rem;
+    font-size: 5rem;
     display: flex;
     justify-content: center;
 
@@ -110,13 +110,16 @@ a {
     #find-os-section h1 {
         color:#FAFFBC;
         padding-bottom: 2rem;
+        padding-top: 2rem;
 
     }
 
     #find-os-section p {
         color: white;
-        font-size: 1.50rem;
+        font-size: 1.80rem;
         max-width: 60%;
+        padding-bottom: 3rem;
+        padding-top: 2rem;
     }
 
     .maps {
@@ -134,15 +137,17 @@ a {
 #ud-til-jer-section h1 {
     color:#4276C9;
     padding-bottom: 2rem;
+    padding-top: 2rem;
 
 
 
 }
 
 #ud-til-jer-section p {
-    font-size: 1.50rem;
+    font-size: 1.80rem;
     max-width: 60%;
     padding-bottom: 3rem;
+    padding-top: 2rem;
 }
 
 /*styling av mappe delen*/
@@ -165,7 +170,7 @@ a {
 #undervisning {
     background-color: #5DB666;
     padding: 2rem 6rem;
-    border-radius: 10% 10% 0 0;
+    border-radius: 10px 10px 0 0;
 }
 
 #undervisningBtn {
@@ -202,7 +207,7 @@ a {
 #festivaler {
     background-color: #4276C9;
     padding: 2rem 6rem;
-    border-radius: 10% 10% 0 0;
+    border-radius: 10px 10px 0 0;
 }
 
 #festivalBtn {
@@ -239,7 +244,7 @@ a {
 #camps {
     background-color:#FF7471;
     padding: 2rem 6rem;
-    border-radius: 10% 10% 0 0;
+    border-radius: 10px 10px 0 0;
 }
 
 #campsBtn {
@@ -277,9 +282,126 @@ a {
     background-color:#5DB666;
     padding-top: 3rem;
     padding-bottom: 3rem;
-    
 }
 
+#kontakt-section h1 {
+    color: #FAFFBC;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+#kontakt-section p {
+    color: black;
+    font-size: 1.80rem;
+    max-width: 60%;
+    padding-left: 5rem;
+    padding-bottom: 3rem;
+    padding-top: 2rem;
+}
+
+#kontaktskjema h2 {
+    color:#FAFFBC;
+    font-family:"Shantell Sans", serif;
+    font-size: 2.80rem;
+    padding-top: 5rem;
+}
+
+#kontaktskjema {
+    padding-left: 5rem;
+}
+
+
+form {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+
+}
+
+#kontaktskjema label {
+    padding: 1.50rem 0 0.50rem 0;
+    color: black;
+    font-size: 1.50rem;
+}
+
+#kontaktskjema input {
+    padding-bottom: 3rem;
+    padding-right: 5rem;
+    border: none;
+}
+
+#kontaktskjema textarea {
+    padding-bottom: 7rem;
+    padding-right: 10rem;
+    border:none;
+
+}
+
+#kontaktskjema button {
+    color: white;
+    background-color: #FF7471;
+    padding: 1rem 2.50rem;
+    border: 0;
+    margin-top: 1rem;
+      
+}
+
+#feedback {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color:#FAFFBC;
+    border: 0.50rem solid ;
+    border-radius: 10px;
+    border-color: #4276C9;
+    min-height: 80px;
+    width: 50%;
+    display: none;
+}
+
+#feedback p {
+    font-size: 2rem;
+    color: #4276C9;
+    font-weight: bold;
+}
+
+/*styling av støtte*/
+#støtte-section {
+    background-color: #4276C9;
+
+}
+
+#støtte-section h1 {
+    color: #FAFFBC;
+    padding: 2rem 0;
+    padding-bottom: 2rem;
+    padding-top: 4rem;
+}
+
+.støtte {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 5rem;
+}
+
+.støtte p {
+    color: white;
+    font-size: 1.80rem;
+}
+
+#footer-section {
+    background-color: #4276C9;
+    display: flex;
+
+}
+
+#footer-section p {
+    color: white;
+    font-size: 1.80rem;
+
+}
 
 
 

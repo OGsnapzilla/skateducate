@@ -193,16 +193,25 @@
                <img>
           </div>
         
-        <div class="kontaktskjema">
+        <div id="kontaktskjema">
             <h2>Kontaktskjema</h2>
             <form>
             <label for="name">Navn</label>
-            <label for="emne">Emne</label>
-            <label for="message">Melding</label>
-            
-            </form>
-            <button>Send</button>
+            <input type="text" id="name" name="name" placeholder="Ditt navn" required>
 
+            <label for="emne">Emne</label>
+            <input type="text" id="emne" name="emne" placeholder="Hva gjelder det?" required>
+
+            <label for="message">Melding</label>
+            <textarea type="text" id="message" name="melding" placeholder="Skriv din melding her" required></textarea>
+            
+            <button id="sendBtn">Send</button>
+            </form>
+            
+            <div id="feedback">
+            <p>Meldingen er sendt! Vi høres snart</p>
+            <img src="img/celebration.png" width="12%" height="auto">
+            </div>
 
         </div>
 

@@ -54,6 +54,26 @@ campsBtn.addEventListener('click', function() {
     showSection(campsSection);
 });
 
+
+//kontaktskjema
+//hentefeedback melding og knapp
+const feedback =document.getElementById("feedback");
+const sendBtn =document.getElementById("sendBtn");
+
+//klikk knapp
+sendBtn.addEventListener("click", function(event) {
+
+event.preventDefault();
+
+ //vis melding
+feedback.style.display = "flex";
+
+})
+
+
+
+
+
 //Tilbake til toppen
 //hente knapp
 const backToTopBtn =document.getElementById("backToTopBtn");
