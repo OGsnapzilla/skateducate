@@ -580,6 +580,8 @@ form {
 
     /*Max-width: 768px*/
     @media only screen and (max-width: 768px) {
+
+    /*MENU*/
         .nav-menu {
         position: fixed;
         left: -100%;
@@ -618,16 +620,15 @@ form {
             transform: translateY(-8px) rotate(-45deg);
         }
 
-        /*OM OS*/
-#om-os-section {
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
-
-#om-os-section p {
-    max-width: 90%;
-
-}
-
+        #om-os-section, #skatesessions-section, #bliv-medlem-section, #find-os-section,
+        #ud-til-jer-section, #kontakt-section, #støtte-section, #footer-section {
+        padding-left: 1rem;
+        padding-right: 1rem;
         }
+
+        p {
+        max-width: 90%;
+        }
+
+    }
 
