@@ -272,11 +272,17 @@ a {
     padding-top: 2rem;
 }
 
+#maskot-down {
+    display: flex;
+
+}
+
 /*styling av mappe delen*/
 
 #tabs {
     display: flex;
     flex-direction: row;
+    height: 80px;
     
 }
 
@@ -286,6 +292,15 @@ a {
 
 .mappe {
     display: none;
+}
+
+/*plassering av img av maskot*/
+#maskot-down {
+    z-index: 500;
+    position: absolute; 
+    right: 200px;
+    top: 3550px;
+
 }
 
 /*styling av undervisning knapp*/
@@ -382,7 +397,7 @@ a {
 #campsBtn {
     background-color: #FF7471;
     color: white;
-    border: none;
+    border: none; 
     font-size: 2.50rem;
     font-family: "Shantell Sans", serif;
     font-weight: bold;
@@ -493,7 +508,7 @@ form {
     border-color: #4276C9;
     min-height: 80px;
     width: 50%;
-    display: none;
+    display: none; /*sjuler melding*/
 }
 
 #feedback p {
@@ -502,7 +517,7 @@ form {
     font-weight: bold;
 }
 
-/*styling av støtte*/
+/*styling av støtte del*/
 #støtte-section {
     background-color: #4276C9;
     padding-bottom: 5rem;
@@ -566,10 +581,12 @@ form {
 
 
 /*back to top styling*/
-    .back-to-top {
+    #back-to-top {
         display: flex;
         flex-direction: column;
         align-items: center;
+        display: none; /*skjuler bilde og knapp*/
+        
 
     }
 
