@@ -308,10 +308,14 @@ a {
 /*styling av undervisning innhold*/
 #mappe-undervisning {
     background-color: #5DB666;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    font-size: 1.50rem;
+    padding-top: 10rem;
+    padding-bottom: 4rem;
+    font-size: 1.80rem;
     color: white;
+}
+
+#mappe-undervisning p {
+    padding-top: 1.30rem;
 }
 
 #mappe-inhold-undervisning {
@@ -322,6 +326,8 @@ a {
     padding-left: 5%;
 
 }
+
+
 
 
 
@@ -345,10 +351,14 @@ a {
 /*styling av festivaler innhold*/
 #mappe-festivaler {
     background-color: #4276C9;
-    padding-top: 3rem;
+    padding-top: 10rem;
     padding-bottom: 3rem;
-    font-size: 1.50rem;
-    color: #f7f7ec;
+    font-size: 1.80rem;
+    color: white;
+}
+
+#mappe-festivaler p {
+    padding-top: 1.30rem;
 }
 
 #mappe-inhold-festivaler {
@@ -382,10 +392,14 @@ a {
 
 #mappe-camps {
     background-color: #FF7471;
-    padding-top: 3rem;
+    padding-top: 10rem;
     padding-bottom: 3rem;
     color: white;
-    font-size: 1.50rem;
+    font-size: 1.80rem;
+}
+
+#mappe-camps p {
+    padding-top: 1.30rem;
 }
 
 #mappe-inhold-camps {
