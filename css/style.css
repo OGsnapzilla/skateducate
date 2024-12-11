@@ -272,10 +272,6 @@ a {
     padding-top: 2rem;
 }
 
-#maskot-down {
-    display: flex;
-
-}
 
 /*styling av mappe delen*/
 
@@ -429,6 +425,14 @@ a {
 
 
 /*styling av kontakt os*/
+
+#maskot-skating {
+    position: absolute;
+    right: 35rem;
+    top: 470rem;
+
+}
+
 #kontakt-section {
     background-color:#5DB666;
     padding-top: 3rem;
@@ -448,6 +452,13 @@ a {
     padding-left: 5rem;
     padding-bottom: 3rem;
     padding-top: 2rem;
+}
+
+.sosiale-medier-ikoner {
+    display: flex;
+    padding-left: 4.5rem;
+    gap: 2%;
+
 }
 
 #kontaktskjema h2 {
