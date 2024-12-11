@@ -309,7 +309,7 @@ a {
 #mappe-undervisning {
     background-color: #5DB666;
     padding-top: 10rem;
-    padding-bottom: 4rem;
+    padding-bottom: 5rem;
     font-size: 1.80rem;
     color: white;
 }
@@ -352,7 +352,7 @@ a {
 #mappe-festivaler {
     background-color: #4276C9;
     padding-top: 10rem;
-    padding-bottom: 3rem;
+    padding-bottom: 5rem;
     font-size: 1.80rem;
     color: white;
 }
@@ -393,7 +393,7 @@ a {
 #mappe-camps {
     background-color: #FF7471;
     padding-top: 10rem;
-    padding-bottom: 3rem;
+    padding-bottom: 5rem;
     color: white;
     font-size: 1.80rem;
 }
@@ -462,13 +462,13 @@ form {
 
 #kontaktskjema input {
     padding-bottom: 3rem;
-    padding-right: 5rem;
+    padding-right: 15rem;
     border: none;
 }
 
 #kontaktskjema textarea {
-    padding-bottom: 7rem;
-    padding-right: 10rem;
+    padding-bottom: 20rem;
+    padding-right: 30rem;
     border:none;
 
 }
@@ -505,27 +505,33 @@ form {
 /*styling av støtte*/
 #støtte-section {
     background-color: #4276C9;
+    padding-bottom: 5rem;
 
 }
 
 #støtte-section h1 {
     color: #FAFFBC;
     padding: 2rem 0;
-    padding-bottom: 2rem;
-    padding-top: 4rem;
+    padding-bottom: 6rem;
+    padding-top: 10rem;
 }
 
 .støtte {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: flex-end;
     padding-bottom: 5rem;
+    
 }
 
 .støtte p {
     color: white;
     font-size: 1.80rem;
+    padding-top: 4rem;
+
 }
+
 
 #footer-section {
     background-color: #4276C9;
