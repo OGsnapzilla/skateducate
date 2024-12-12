@@ -11,7 +11,7 @@ const campsSection =document.getElementById("mappe-camps");
 
 //vise riktig seksjon
 function showSection(section) {
-    undervisningSection .classList.remove('active');
+    undervisningSection.classList.remove('active');
     festivalSection.classList.remove('active');
     campsSection.classList.remove('active');
 
