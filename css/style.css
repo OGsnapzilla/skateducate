@@ -35,7 +35,7 @@ a {
     text-decoration: none;
 }
 
-/*Navigation*/
+/*Navigation styling*/
 
 .header{
     border-bottom: 1px solid #5DB666;
@@ -43,24 +43,25 @@ a {
 
 .navbar {
     display: flex;
-    position: fixed;
-    width: 100%;
-    justify-content: space-between;
+    position: fixed; /*Sidder fast på toppen af siden*/
+    width: 100%; 
+    justify-content: space-between; /*Sørger for afstand mellem logo og menupunkter*/
     align-items: center;
     padding: 1rem 1.5rem;
     background-color: #5DB666;
 }
 
 .hamburger {
-    display: none;
+    display: none; /*Vises ikke i fuld skærmstørrelse*/
 }
 
+/*Styling af de tomme span elementer*/
 .bar {
     display: block;
     width: 25px;
     height: 3px;
     margin: 5px auto;
-    -webkit-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out; 
     transition: all 0.3s ease-in-out;
     background-color: #FAFFBC;
 }
@@ -94,14 +95,14 @@ a {
         width: 70%;
     }
 
-    /*Progress bar*/
-    .progress-bar {
-        background: #FF7471;
-        height: 10px;
-        width: 0%;
-        position: fixed;
-        z-index: 1;
-    }
+/*Progress bar styling*/
+.progress-bar {
+    background: #FF7471;
+    height: 10px;
+    width: 0%;
+    position: fixed;
+    z-index: 1;
+}
 
 /*Hero picture styling*/
 #hero-foto-section {
@@ -658,15 +659,15 @@ form {
 
         .hamburger.active .bar:nth-child(2) {
             opacity: 0;
-        }
+        } /*Midterste bar forsvinder*/
         
         .hamburger.active .bar:nth-child(1) {
             transform: translateY(8px) rotate(45deg);
-        }
+        } /*Første bar roteres ned*/
         
         .hamburger.active .bar:nth-child(3) {
             transform: translateY(-8px) rotate(-45deg);
-        }
+        } /*Tredje bar roteres op*/
 
         #om-os-section, #skatesessions-section, #bliv-medlem-section, #find-os-section,
         #ud-til-jer-section, #kontakt-section, #støtte-section, #footer-section {
