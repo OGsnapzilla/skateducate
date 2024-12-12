@@ -10,6 +10,7 @@
     <script src="js/readmore.js" defer></script>
     <script src="js/contact.js" defer></script>
     <script src="js/backtotop.js" defer></script>
+    <script src="js/tabs.js" defer></script>
 </head>
 <body>
 
@@ -55,7 +56,7 @@
 
     <!--Hero foto section-->
     <section id="hero-foto-section">
-        <img src="img/heropic.jpg" id="hero-pic" alt="Skateducate gruppebillede">
+        <img src="img/herofoto.webp" id="hero-pic" alt="Skateducate gruppebillede">
     </section>
 
     <!--Om os section-->
@@ -94,12 +95,12 @@
 
             <section id="skatesession-photo-container">
                 <section id="outdoor-skating">
-                    <img class="skatesession-photos" src="img/session1.jpg" alt="Pige på skateboard">
+                    <img class="skatesession-photos" src="img/skates2.webp" alt="Pige på skateboard">
                     <h2>Sommersessions: Godsbanen</h2>
                 </section>
 
                 <section id="indoor-skating">
-                    <img class="skatesession-photos" src="img/skate2.jpg" alt="Indendørs skateboarding">
+                    <img class="skatesession-photos" src="img/skates1.webp" alt="Indendørs skateboarding">
                     <h2>Vintersessions: Teknisk Afdeling</h2>
                 </section>
             </section>
@@ -113,9 +114,10 @@
     <section id="bliv-medlem-section">
         <h1>Bliv en del af Skateducate</h1>
         <p>Vi synes altid det er mega fedt at se nye ansigter! Som  medlem af Skateducate kan du være med til at bidrage, og selv komme med idéer, til forskelligt sjovt vi laver. Du betaler bare et symbolsk beløb; din alder, enten den fysiske eller mentale. <br><br>
-            Hvis det lyder som noget for dig, så meld dig til her: </p>
-        <button id="bliv-medlem-button">Bliv medlem</button>
-        <h2>Vi glæder os til at rulle med dig!</h2>
+            Hvis det lyder som noget for dig, så meld dig til her: <br><br><br>
+        <a id="bliv-medlem-button" href="https://forms.gle/rMRsE7fD1f5u4sf16">Bliv medlem</a>
+        <br><br><br>
+        <b>Vi glæder os til at rulle med dig!</b></p>
     </section>
 
     <!--Her finder du os section-->
@@ -123,17 +125,17 @@
         <h1>Her finder du os</h1>
         <p>Conny, vores lyserøde klubhus, holder til på Institut for (X).Det er containeren lige ved siden af skateboard ramperne.Vores frivillige er ofte at finde her, og du er selvfølgelig også velkommen til at kigge forbi og sige hej. </p>
 
-        <div id="bilder-find-os">
-            <div class="klubhus">
-                <img src="img/corny-klubhus.webp" alt="Bilde av en rosa container, med skaterampe ved siden av. Med lyslenke over." width="60%" height="auto">
+        <section id="bilder-find-os">
+            <section class="klubhus">
+                <img class="find-os-photos" id="conny" src="img/corny-klubhus.webp" alt="Bilde av en rosa container, med skaterampe ved siden av. Med lyslenke over.">
                 <p>Klubhus Conny</p>
-            </div>
+            </section>
 
-            <div class="maps">
-                <img src="img/maps-skateducate.JPG" alt="Bilde av et kart av plasseringen til Skateducate" width="100%" height="auto">
+            <section class="maps">
+                <img class="find-os-photos" id="maps-foto" src="img/mapslokation.png" alt="Bilde av et kart av plasseringen til Skateducate">
                 <p>Her ligger vi</p>
-            </div>
-        </div>
+            </section>
+        </section>
     </section>
 
     <!--Skal vi ud til jer section-->
@@ -141,87 +143,93 @@
         <h1>Skal vi ud til jer?</h1>
         <p>Kunne I godt tænke jer vi kommer ud og giver en sjov og alternativ undervisning til jeres elever? Eller måske 
             engarerende underholdning til festivaler? Skateducate kommer gerne ud og sætter gang i jer. Smid os en mail via formularen nedenfor.</p>
-    <!--Tabs i mappe-->
-        <div id="mappe-tabs">
-            <div id="tabs">
-                <div id="undervisning">
+    
+            <section id="maskot-tab">
+                <img src="img/maskot2.png" id="maskot-down" width="30%" height="auto" alt="En illustrasjon av en blå maskot, med en rosa caps som ligger på siden">
+            </section>
+
+            <!--Tabs i mappe-->
+        <section id="mappe-tabs">
+            <section id="tabs">
+
+                <section id="undervisning">
                 <button id="undervisningBtn">Undervisning<button>
-                </div>
+                </section>
 
-                <div id="festivaler">
+                <section id="festivaler">
                 <button id="festivalBtn">Festivaler</button>
-                </div>
+                </section>
 
-                <div id="camps">
+                <section id="camps">
                 <button id="campsBtn">Camps</button>
-                </div>
+                </section>
 
-            </div>
-         </div> 
-
-            <img src="img/maskot2.png" id="maskot-down" width="30%" height="auto" alt="En illustrasjon av en blå maskot, med en rosa caps som ligger på siden">
+            </section>
+         </section> 
 
         </section>
+
     <!--Bilder i mappe undervisning-->
     <section id="mappe-undervisning" class="mappe active">
-        <div id="mappe-inhold-undervisning">
-            <div class="inhold-1">
-                <img src="img/undervisning-1.webp" width="400" height="400" alt="Bilde av to unge kvinner i hjelm og beskyttelse, som skal skate">
-                <p>Undervisning i Køge 2016</p>
-            </div>
 
-            <div class="inhold-2">
-                <img src="img/undervisning-2.webp" width="400" height="400" alt="Bilde av en kvinne som hjelper en annen kvinne å skate">
-                <p>Undervisning i Køge 2016</p>
-            </div>
+        <section id="mappe-inhold-undervisning">
+            <section class="inhold-1">
+                <img class="map-photos" src="img/undervisning-3.webp" alt="Bilde av to unge kvinner i hjelm og beskyttelse, som skal skate">
+                <p>Undervisning som en del af Pushy days 2021</p>
+            </section>
 
-            <div class="inhold-3">
-                <img src="img/undervisning-3.webp" width="400" height="400" alt="Bilde av fire kvinner på rekke som øver på å skate">
-                <p>Undervisning som en del av Pushy days 2021</p>
-            </div>
-        </div>
+            <section class="inhold-2">
+                <img class="map-photos" src="img/undervisning-2.webp" alt="Bilde av en kvinne som hjelper en annen kvinne å skate">
+                <p>Undervisning i Køge 2016</p>
+            </section>
+
+            <section class="inhold-3">
+                <img class="map-photos" src="img/undervisning-1.webp" alt="Bilde av fire kvinner på rekke som øver på å skate">
+                <p>Undervisning i Køge 2016</p>
+            </section>
+        </section>
 
     </section>
 
 <!--mappe festivaler-->
     <section id="mappe-festivaler" class="mappe">
-        <div id="mappe-inhold-festivaler">
-            <div class="inhold-1">
-                <img src="img/festival-1.webp" width="400" height="400"  alt="Bilde av en gruppe mennesker som bygger en platform til skaterampe av tre">
-                <p>Grimfest 2021</p>
-            </div>
+        <section id="mappe-inhold-festivaler">
+            <section class="inhold-1">
+                <img class="map-photos" src="img/festival-3.webp"  alt="Bilde av en gruppe mennesker som bygger en platform til skaterampe av tre">
+                <p>Grimfest 2024</p>
+            </section>
 
-            <div class="inhold-2">
-                <img src="img/festival-2.webp" width="400" height="400"  alt="Bilde av tre mennesker som skrur sammen to planker">
+            <section class="inhold-2">
+                <img class="map-photos" src="img/festival-2.webp"  alt="Bilde av tre mennesker som skrur sammen to planker">
                 <p>Grimfest 2021</p>
-            </div>
+            </section>
 
-            <div class="inhold-3">
-                <img src="img/festival-3.webp" width="400" height="400"  auto="Bilde av rampen ferdig, med to som ser på en skate på den">
+            <section class="inhold-3">
+                <img class="map-photos" src="img/festival-1.webp" alt="Bilde av rampen ferdig, med to som ser på en skate på den">
                 <p>Grimfest 2021 </p>
-            </div>
-        </div>
+            </section>
+        </section>
 
     </section>
 
 <!--mappe camps-->
     <section id="mappe-camps" class="mappe">
-        <div id="mappe-inhold-camps">
-            <div class="inhold-1">
-                <img src="img/camps-1.webp" width="400" height="400" alt="Bilde av en kvinne som viser andre kvinner hvordan tegne på et skateboard">
+        <section id="mappe-inhold-camps">
+            <section class="inhold-1">
+                <img class="map-photos" src="img/camps-1.webp" alt="Bilde av en kvinne som viser andre kvinner hvordan tegne på et skateboard">
                 <p>Køge 2016</p>
-            </div>
+            </section>
 
-            <div class="inhold-2">
-                <img src="img/camps-2.webp" width="400" height="400" alt="Bilde av en kvinne som holder et skateboard og snakker til en gruppe kvinner">
+            <section class="inhold-2">
+                <img class="map-photos" src="img/camps-2.webp" alt="Bilde av en kvinne som holder et skateboard og snakker til en gruppe kvinner">
                 <p>Køge 2016</p>
-            </div>
+            </section>
 
-            <div class="inhold-3">
-                <img src="img/camps-3.webp" width="400" height="400" alt="Bilde av tre kvinner som viser skateboardene sine som du har tegnet på">
+            <section class="inhold-3">
+                <img class="map-photos" src="img/camps-3.webp" alt="Bilde av tre kvinner som viser skateboardene sine som du har tegnet på">
                 <p>Pushy Days 2021 </p>
-            </div>
-        </div>
+            </section>
+        </section>
 
     </section>
 
@@ -230,85 +238,89 @@
         <h1>Kontakt os</h1>
         <p>Du kan skrive til os via denne formular, eller på vores sociale medier. Vi svarer som udgangspunkt hurtigst på Instagram.</p>
           <!--sosiale medier ikoner-->
-          <div class="sosiale-medier-ikoner">
-            <img src="img/instagram (1).webp" alt="Instagram ikon som er et stilisert kamera" height="auto" width="3%">
-            <img src="img/facebook.webp" alt="facebook ikon, hvor en f er i en sirkel" height="auto" width="3%">
-          </div>
+          <section class="sosiale-medier-ikoner">
+            <img class="some-icon" src="img/instagram (1).webp" alt="Instagram ikon som er et stilisert kamera">
+            <img class="some-icon" src="img/facebook.webp" alt="facebook ikon, hvor en f er i en sirkel">
+          </section>
 
-        <img id="maskot-skating" src="img/maskot3.png" width="35%" height="auto" alt="blå maskot med en rosa hatt, som skater">
         
-        <div id="kontaktskjema">
+          <section id="kontaktskjema">
             <h2>Kontakt</h2>
-            <form>
-            <label for="name">Navn</label>
-            <input type="text" id="name" name="name" placeholder="Dit navn" required>
-
-            <label for="emne">Emne</label>
-            <input type="text" id="emne" name="emne" placeholder="Hvad handler det om?" required>
-
-            <label for="message">Besked</label>
-            <textarea type="text" id="message" name="melding" placeholder="Skriv din besked her" required></textarea>
-            
-            <button id="sendBtn">Send</button>
-            </form>
-            
-            <div id="feedback">
-            <p>Beskeden er sendt! Vi snakkes ved snart</p>
-            <img src="img/celebration.png" width="12%" height="auto" alt="Dekorativ kjegle som skyter ut konfetti ">
-            </div>
-
-        </div>
+            <section id="kontakt-container">
+                <form>
+                    <label for="name">Navn</label>
+                    <input type="text" id="name" name="name" placeholder="Dit navn" required>
+        
+                    <label for="emne">Emne</label>
+                    <input type="text" id="emne" name="emne" placeholder="Hvad handler det om?" required>
+        
+                    <label for="message">Besked</label>
+                    <textarea type="text" id="message" name="melding" placeholder="Skriv din besked her" required></textarea>
+        
+                    <button id="sendBtn">Send</button>
+                </form>
+        
+                <section id="skating-maskot-container">
+                    <img id="maskot-skating" src="img/maskot3.png" alt="blå maskot med en rosa hatt, som skater">
+                </section>
+            </section>
+        
+            <section id="feedback">
+                <p>Beskeden er sendt! Vi snakkes ved snart</p>
+                <img src="img/celebration.png" width="12%" height="auto" alt="Dekorativ kjegle som skyter ut konfetti ">
+            </section>
+        </section>
 
     </section>
     <!--støtte section-->
     <section id="støtte-section">
         <h1>Støtte</h1>
  
-        <div class="støtte">
-        <div class="støtte-1">
-            <img src="img/TV_2_Echo_2023.webp" width="100" height="100" alt="tv-2 echo logo, en sirkel med skrift inni">
+        <section class="støtte">
+        <section class="støtte-1">
+            <img class="støtte-photos" src="img/TV_2_Echo_2023.webp" alt="tv-2 echo logo, en sirkel med skrift inni">
             <p>EchoPrisen 2023</p>
-        </div>
+        </section>
 
-        <div class=støtte-2>
-            <img src="img/NRGi.png" width="200" height="90" alt="Står NRGi i en grønn farge">
+        <section class=støtte-2>
+            <img class="støtte-photos" src="img/NRGi.png" alt="Står NRGi i en grønn farge">
             <p>NRGI Værdipulje 2021</p>
-        </div>
+        </section>
 
-        <div class="støtte-3">
-            <img src="img/erasmus+.webp" width="150" height="150" alt="vier et blått flagg, med stjerner i en sirkel og under står det erasmus">
+        <section class="støtte-3">
+            <img class="støtte-photos" src="img/erasmus+.webp" alt="vier et blått flagg, med stjerner i en sirkel og under står det erasmus">
             <p>Erasmus+ 2024</p>
-        </div>
+        </section>
 
-        <div class="støtte-4">
-            <img src="img/pukk logo.png" width="200" height="100" alt="viser en praglete tekst for det står PUKK, men en strek under" width="25%" height="auto">
+        <section class="støtte-4">
+            <img class="støtte-photos" src="img/pukk logo.png" alt="viser en praglete tekst for det står PUKK, men en strek under">
             <p>PUKK Puljen 2024</p>
-        </div>
-    </div>
+        </section>
+    </section>
 
     </section>
 
     <!--Footer section-->
     <section id="footer-section">
-        <div class="footer-tekst">
+        <section class="footer-tekst">
             <p>SKATEDUCATE, 2025
                 Skovgaardsgade 5c, Institut for (X)
                 8000 Aarhus C</p>
-        </div>
+        </section>
 
-        <div id="sosiale-medier-ikoner-footer">
+        <section id="sosiale-medier-ikoner-footer">
             <img src="img/instagram (1).webp" alt="Instagram ikon som er et stilisert kamera" height="auto" width="5%">
             <img src="img/facebook.webp" alt="facebook ikon, hvor en f er i en sirkel" height="auto" width="5%">
             <img src="img/mail.webp" alt="en stilisert konvolutt" height="auto" width="6%">
-        </div>
+        </section>
     </section>
 
     <!---Tilbake til toppen knapp-->
 <section>
-    <div id="back-to-top">
+    <section id="back-to-top">
     <img src="img/arrow-lightning.png" id="arrow" alt="pil som peker oppover, hvor halen er et lyn" width="5%" height="auto">
-    <button id="backToTopBtn">Tilbake til toppen</button>
-    </div>
+    <button id="backToTopBtn">Tilbage til toppen</button>
+    </section>
 
 </section>
 </body>
