@@ -115,35 +115,38 @@ a {
     width: 100%;
 }
 
-/*Hvem er skaducate? styling*/
-
+/* Hvem er Skateducate? styling */
 #om-os-section {
     display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
     background-color: #5DB666;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding: 3rem;
+    gap: 1rem;
 }
 
 #om-os-section h1 {
     color: #FAFFBC;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
 }
 
 #om-os-tekst {
-    flex: 1;
+    flex: 1 1 60%;
     color: white;
     font-size: 1.80rem;
-    max-width: 90%;
-    padding-bottom: 3rem;
-    padding-top: 2rem;
-
+    max-width: 100%;
+    padding-left: 6%;
 }
 
 #om-os-foto-section {
-     margin-left: 50rem;
+    flex: 1 1 35%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 #om-os-foto {
-    margin-top: 20rem;
     width: 100%;
     height: auto;
     border-radius: 20px;
@@ -154,12 +157,13 @@ a {
 }
 
 #myBtn {
-    background-color:#5DB666;
+    background-color: #5DB666;
     border: none;
     color: white;
     font-weight: 600;
     font-size: 1.90rem;
-
+    padding-top: 2rem;
+    cursor: pointer;
 }
 
 /*Skatesessions styling*/
@@ -192,6 +196,27 @@ a {
     border-radius: 10px;
     font-weight: 600;
     border: none;
+    cursor: pointer;
+}
+
+/* Skatesessions Styling */
+#skatesession-photo-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.50rem;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.skatesession-photos {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
+
+#outdoor-skating, #indoor-skating {
+    text-align: center; 
 }
 
 /*Bliv medlem styling*/
@@ -314,6 +339,7 @@ a {
     font-size: 2.50rem;
     font-family: "Shantell Sans", serif;
     font-weight: bold;
+    cursor: pointer;
 
 }
 
@@ -357,6 +383,7 @@ a {
     font-size: 2.50rem;
     font-family: "Shantell Sans", serif;
     font-weight: bold;
+    cursor: pointer;
 
 }
 
@@ -398,6 +425,7 @@ a {
     font-size: 2.50rem;
     font-family: "Shantell Sans", serif;
     font-weight: bold;
+    cursor: pointer;
 }
 
 /*styling av camps innhold*/
@@ -506,6 +534,7 @@ form {
     padding: 1rem 2.50rem;
     border: 0;
     margin-top: 1rem;
+    cursor: pointer;
       
 }
 
@@ -607,6 +636,7 @@ form {
         position: fixed;
         right: 35px;
         bottom: 50px;
+        cursor: pointer;
     }
 /*styling + plassering av knapp*/
     #backToTopBtn {
@@ -618,7 +648,7 @@ form {
         color: black;
         font-weight: bold;
         font-size: small;
-
+        cursor: pointer;
     }
 
 
