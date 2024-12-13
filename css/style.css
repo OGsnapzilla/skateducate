@@ -345,6 +345,15 @@ a {
     width: 100%;
 }
 
+#maskot-down {
+    width: 40%;
+}
+
+#celebration {
+    width: 12%;
+    height: auto;
+}
+
 /*styling av undervisning knapp*/
 #undervisning {
     background-color: #31ba59;
