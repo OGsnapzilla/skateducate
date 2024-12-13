@@ -113,6 +113,7 @@ a {
     margin: 0;
     padding: 0;
     background-color: #31ba59;
+    padding: 4rem 0 0;
 }
 
 #hero-pic {
@@ -765,6 +766,11 @@ form {
 
         /*BILLEDER*/
         
+        /*Hero picture styling*/
+        #hero-foto-section {
+         padding: 7rem 0 0;
+        }
+
         #skatesession-photo-container {
         padding: 0;
         padding-left: 1rem;
