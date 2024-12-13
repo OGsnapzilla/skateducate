@@ -354,6 +354,11 @@ a {
     height: auto;
 }
 
+.some-icons {
+    width: 5%;
+    height: auto;
+}
+
 /*styling av undervisning knapp*/
 #undervisning {
     background-color: #31ba59;
@@ -703,6 +708,8 @@ form {
         right: 80px;
         bottom: 50px;
         cursor: pointer;
+        width: 5%;
+        height: auto;
     }
 
 /*styling + plassering av knapp*/
